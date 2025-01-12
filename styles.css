@@ -114,6 +114,7 @@ height: 600px;
 
 .content {
 align-items: center;
+border: 10px  solid #000000;
 }
 
 .content-info {
@@ -129,37 +130,7 @@ border-radius: 15px;
 margin: 5px 20px 0px 20px;
 }
 
-.work {
-display: flex;
-color: #ffffff;
-background-color: rgb(116, 110, 110);
-align-items: center;
-justify-content: center;
-padding: 90px;
-}
 
-.work-cta {
-flex-basis: 600px;
-display: flex;
-flex-direction: column;
-text-align: left;
-margin-right: 120px;
-}
-
-
-.work h1 {
-font-size: 80px;
-font-weight: bold;
-color: #F9FAF8;
-margin: 0;
-
-}
-
-
-.work-image img {
-width: auto;
-height: 600px;
-}
 
 .interests{
     background-color: #333;
@@ -233,6 +204,14 @@ height: 600px;
     line-height: 1.6;
     color: #555;
 }
+.resume{
+    background-color: rgb(116, 110, 110);
+}
+
+.resume h1{
+    color: white;
+    font-weight: bold;
+}
 .resume img{
     justify-content: center;
     width: 900px;
@@ -244,17 +223,27 @@ height: 600px;
     margin-bottom: 20px;
 }
 
+.resume h1{
+    margin-top: 50px;
+}
+
 
 
 
 .skill {
-  margin-top: 50px;
   
+  padding-bottom: 50px;
+  background-color: rgb(116, 110, 110);
 }
 
 .skill p {
   margin: 0 0 10px;
   font-weight: bold;
+  color: white;
+}
+
+.skill h1{
+    color: white;
 }
 
 .skill-bar {
@@ -265,16 +254,58 @@ height: 600px;
   border-radius: 5px;
   overflow: hidden;
   position: relative;
-  margin-left: 285px;
+  margin: 0 auto; 
+  justify-items: center;
   
 }
 
 .skill-fill {
   height: 100%;
-  background: linear-gradient(90deg, #4caf50, #8bc34a);
+  
   width: 0;
   border-radius: 5px;
   animation: fill-animation 2s forwards;
+}
+.html-skill {
+  background: linear-gradient(90deg, #e44d26, #f16529);
+  
+  
+}
+
+.css-skill {
+  background: linear-gradient(90deg, #264de4, #2965f1);
+  
+  
+}
+
+.sql-skill {
+  background: linear-gradient(90deg, #f29111, #ffc107);
+  
+  
+}
+
+.vba-skill {
+  background: linear-gradient(90deg, #1c3a54, #2874a6);
+  
+  
+}
+
+.bloom-skill {
+  background: linear-gradient(90deg, #003366, #006699);
+  
+  
+}
+
+.bi-skill {
+  background: linear-gradient(90deg, #F2C811, #F2B807);
+  
+  
+}
+
+.javascript-skill {
+  background: linear-gradient(90deg, #F7DF1E, #FFD700);
+  
+  
 }
 
 @keyframes fill-animation {
