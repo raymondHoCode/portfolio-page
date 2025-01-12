@@ -163,14 +163,21 @@ flex: auto;
 text-align: center;
 }
 
-
-
-h3 {
-color: #fff;
-
-
-
+.contact h1{
+    color: #fff;
+    font-size: 30px;
 }
+
+.contact h3 {
+color: #fff;
+font-size: 18px;
+}
+.contact a{
+    color: #fff;
+    font-size: 18px;
+}
+
+
 
 
 
