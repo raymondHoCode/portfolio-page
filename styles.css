@@ -245,59 +245,41 @@ height: 600px;
 }
 
 
-.skills {
-  width: 80%; /* Adjust to your container size */
-  margin: 20px auto;
-}
+
 
 .skill {
-  margin-bottom: 15px;
+  margin-top: 50px;
+  
 }
 
 .skill p {
-  margin: 0 0 5px;
+  margin: 0 0 10px;
   font-weight: bold;
 }
 
 .skill-bar {
-  width: 100%;
-  background-color: #e0e0e0;
-  border-radius: 10px;
-  height: 15px;
+  width: 900px;
+  
+  background: #ddd;
+  height: 25px;
+  border-radius: 5px;
   overflow: hidden;
   position: relative;
+  margin-left: 285px;
+  
 }
 
-.bar {
+.skill-fill {
   height: 100%;
-  border-radius: 10px;
-  background-color: #4caf50; /* Default color */
+  background: linear-gradient(90deg, #4caf50, #8bc34a);
   width: 0;
-  animation: load 2s forwards;
+  border-radius: 5px;
+  animation: fill-animation 2s forwards;
 }
 
-.bar.python {
-  width: 85%; /* Adjust for skill level */
-  background-color: #1e90ff; /* Unique color */
-}
-
-.bar.sql {
-  width: 60%; /* Adjust for skill level */
-  background-color: #ffa500; /* Unique color */
-}
-
-.bar.excel {
-  width: 60%; /* Adjust for skill level */
-  background-color: #32cd32; /* Unique color */
-}
-
-/* Animation for smooth loading */
-@keyframes load {
-  from {
-    width: 0;
-  }
+@keyframes fill-animation {
   to {
-    width: inherit;
+      width: var(--skill-level);
   }
 }
 
