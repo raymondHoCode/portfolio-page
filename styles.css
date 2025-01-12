@@ -265,6 +265,8 @@ margin: 5px 20px 0px 20px;
   width: 0;
   border-radius: 5px;
   animation: fill-animation 2s forwards;
+  position: absolute; 
+  left: 0;
 }
 .html-skill {
   background: linear-gradient(90deg, #e44d26, #f16529);
