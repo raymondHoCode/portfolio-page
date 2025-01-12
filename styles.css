@@ -1,4 +1,6 @@
 
+/* CSS for the header, contact info, and general formatting*/
+
 body {
 background-color: #ffffff;
 padding: 0;
@@ -43,6 +45,40 @@ padding: 15px;
 
 }
 
+.contact {
+background-color: #1F2937 ;
+
+padding: 10px 80px;
+display: flex;
+align-items: center;
+border-radius: 5px;
+
+}
+
+.contact-item {
+flex: auto;
+
+}
+
+.contact-text {
+text-align: center;
+}
+
+.contact h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+.contact h3 {
+color: #fff;
+font-size: 18px;
+}
+.contact a{
+    color: #fff;
+    font-size: 18px;
+}
+
+/*CSS for index page*/
 .main {
 display: flex;
 color: #ffffff;
@@ -93,6 +129,38 @@ border-radius: 15px;
 margin: 5px 20px 0px 20px;
 }
 
+.work {
+display: flex;
+color: #ffffff;
+background-color: rgb(116, 110, 110);
+align-items: center;
+justify-content: center;
+padding: 90px;
+}
+
+.work-cta {
+flex-basis: 600px;
+display: flex;
+flex-direction: column;
+text-align: left;
+margin-right: 120px;
+}
+
+
+.work h1 {
+font-size: 80px;
+font-weight: bold;
+color: #F9FAF8;
+margin: 0;
+
+}
+
+
+.work-image img {
+width: auto;
+height: 600px;
+}
+
 .interests{
     background-color: #333;
 }
@@ -139,52 +207,16 @@ margin: 5px 20px 0px 20px;
 }
 
 
-
-
-
-
-
-.contact {
-background-color: #1F2937 ;
-
-padding: 10px 80px;
-display: flex;
-align-items: center;
-border-radius: 5px;
-
-}
-
-.contact-item {
-flex: auto;
-
-}
-
-.contact-text {
-text-align: center;
-}
-
-.contact h1{
-    color: #fff;
-    font-size: 30px;
-}
-
-.contact h3 {
-color: #fff;
-font-size: 18px;
-}
-.contact a{
-    color: #fff;
-    font-size: 18px;
-}
+/*CSS for about section*/
 
 .about {
     
     
-    border: 3px solid #4CAF50; /* Adds a green border */
+    border: 3px solid #000000; 
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     
-    margin: 200px;
+    margin: 80px 250px 80px;
     
     text-align: center;
     justify-content: center;
@@ -206,12 +238,67 @@ font-size: 18px;
     width: 900px;
     Height: auto;
     border: 5px solid #000000; 
-    border-radius: 10px; /* Optional: Rounds the corners */
+    border-radius: 10px; 
     
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
 
 
+.skills {
+  width: 80%; /* Adjust to your container size */
+  margin: 20px auto;
+}
 
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill p {
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  height: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bar {
+  height: 100%;
+  border-radius: 10px;
+  background-color: #4caf50; /* Default color */
+  width: 0;
+  animation: load 2s forwards;
+}
+
+.bar.python {
+  width: 85%; /* Adjust for skill level */
+  background-color: #1e90ff; /* Unique color */
+}
+
+.bar.sql {
+  width: 60%; /* Adjust for skill level */
+  background-color: #ffa500; /* Unique color */
+}
+
+.bar.excel {
+  width: 60%; /* Adjust for skill level */
+  background-color: #32cd32; /* Unique color */
+}
+
+/* Animation for smooth loading */
+@keyframes load {
+  from {
+    width: 0;
+  }
+  to {
+    width: inherit;
+  }
+}
 
 
