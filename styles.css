@@ -71,7 +71,7 @@ margin: 0;
 
 
 .main-image img {
-width: 380px;
+width: auto;
 height: 600px;
 }
 
@@ -96,7 +96,7 @@ margin: 5px 20px 0px 20px;
 .interests{
     background-color: #333;
 }
-.interests-image {
+.interests-media {
     display: flex;
     flex-direction: column;
     gap: 20px; 
@@ -107,13 +107,13 @@ margin: 5px 20px 0px 20px;
 
 
 
-.interests-image img {
-    width: 100px;
-    height: 100px;
+.interests-media img {
+    width: 370px;
+    height: 300px;
     border-radius: 8px;
 }
 
-.interests-image p{
+.interests-media p{
     font-size: 30px;
     color: #fff;
 
@@ -130,6 +130,12 @@ margin: 5px 20px 0px 20px;
     font-size: 40px;
     text-align: center;
     color: rgb(255, 255, 255);
+}
+
+.interests-media video{
+    width: 370px;
+    height: 300px;
+    border-radius: 8px;
 }
 
 
