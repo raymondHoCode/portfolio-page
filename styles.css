@@ -309,7 +309,12 @@ margin: 5px 20px 0px 20px;
 }
 
 @keyframes fill-animation {
-  to {
+     0% {
+    width: 0;
+    left: 0;
+  }
+  100% 
+  {
       width: var(--skill-level);
   }
 }
