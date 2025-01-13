@@ -172,7 +172,7 @@ margin: 5px 20px 0px 20px;
 }
 
 .interests-media video{
-    width: 370px;
+    width: auto;
     height: 300px;
     border-radius: 8px;
 }
