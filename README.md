@@ -1,4 +1,10 @@
 # portfolio-page
-Welcome to my first coding project: the portfolio profile!  
+Welcome to my first coding project: **My Personal Portfolio WEbsite**!  
 
-I decided to work on a portfolio profile because it could be expanded upon when I build more projects over time. At the moment I am using the Odin project to learn about web development and decided it was a good opportunity to try my hand at creating a portfolio page with the use of basic html and css. In the process I have also learned the basics of Git and how to use the Ubuntu platform. In the future I am planning on adding transitions, a better design, and other fun functionalities to the webpage through javascript and it's frameworks.  
+I decided to work on a portfolio profile because it can be expanded upon as I build more projects over time. This project is a simple personal portfolio webpage built using **HTML** and **CSS**.  
+
+As part of my learning journey with **The Odin Project**, I saw this as a great opportunity to practice web development basics while also getting hands-on experience with **Git**, **Linux** and **Ubuntu**.  
+
+In the future, I plan to enhance this project by adding **JavaScript** functionalities, transitions, and improved design elements.  
+
+---
